@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "assetsutilities": "^1.1.13",
+    "bundy": "^0.1.1",
+    "cli-color": "^2.0.4",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0",
+    "node-minify": "^3.6.0"
+  },
+  "name": "lista-de-contatos",
+  "description": "Aplicação simples para adicionar contatos",
+  "version": "1.0.0",
+  "main": "bundy.js",
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "sucrase": "^3.35.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Lucas Coelho",
+  "license": "ISC"
+}

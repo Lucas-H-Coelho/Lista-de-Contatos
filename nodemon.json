@@ -1,0 +1,6 @@
+{
+  "watch": ["src", "index.html"],
+  "ext": "js,json,html",
+  "exec": "sucrase-node server.js index.html"
+}
+
